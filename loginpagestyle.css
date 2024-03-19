@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpapercave.com/wp/wp4511654.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+a,
+i {
+    color: white;
+    text-decoration: none;
+}
+
+.container1 {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.297);
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    padding: 2px 2px;
+    backdrop-filter: blur(10px);
+}
+
+
+
+.loginheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.input1,
+.input2 {
+    border: 1px solid rgba(255, 255, 255, 0.297);
+    border-radius: 3px;
+    border-radius: 60px;
+    padding-left: 15px;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.text1,
+.text2 {
+    width: 90%;
+    height: 90%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: rgb(174, 170, 170)
+}
+
+
+.input2 {
+    margin-top: 30px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    margin: 20px 50px 0 50px;
+    color: white;
+
+}
+
+.checkbox {
+    display: flex;
+    gap: 10px;
+}
+
+.loginbtn a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 0 20px 0;
+    height: 40px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    width: 300px;
+    border-radius: 60px;
+
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

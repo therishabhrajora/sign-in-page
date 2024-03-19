@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="registrationstyle.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h2 class="WEB">WEB</h2>
+        <nav class="nav">
+
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Contacts</a>
+            <button class="loginbtn-popup">Login</button>
+        </nav>
+    </header>
+
+
+    <div class="main">
+        <span class="icon-close">x</span>
+        <div class="form-loginbox">
+            <h1 class="h1">Login</h1>
+            <form action="#">
+
+                <div class="input-loginbox">
+                    <input type="text" required><label for="email">email</label>
+                </div>
+                <div class="input-loginbox">
+                    <input type="text" required><label for="password">password</label>
+                </div>
+
+
+                <div class="remember-forgot-loginbox">
+                    <label for="remember"><input type="checkbox">Remember me</label>
+                    <a href="" class="forgot-password">Forgot Password ?</a>
+                </div>
+
+
+                <button type="submit" class="btn">Login</button>
+
+
+                <div class="logincaption-loginbox">
+                    <p>Don't have an accounts ? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!---------------------------------------------------------------------->
+        <div class="form-registerbox">
+            <div class="registerbox">
+
+                <h1 class="h1">Registration</h1>
+            </div>
+            <form action="#">
+
+                <div class="input-loginbox">
+                    <input type="text" required><label for="username">username</label>
+                </div>
+                <div class="input-loginbox">
+                    <input type="email" required><label for="email">email</label>
+                </div>
+                <div class="input-loginbox">
+                    <input type="password" required><label for="password">password</label>
+                </div>
+
+
+                <div class="remember-forgot-loginbox">
+                    <label for="remember"><input type="checkbox">I agree to the terms & conditions</label>
+
+                </div>
+
+
+                <button type="submit" class="btn">Register</button>
+
+
+                <div class="logincaption-loginbox">
+                    <p>Already have an account ? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="registrationjs.js"></script>
+</body>
